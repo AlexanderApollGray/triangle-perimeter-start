@@ -18,9 +18,9 @@ function btnClicked() {
     let BC = dist(vertexBX, vertexBY, vertexCX, vertexCY);
 
     // Calculate and Output Distance and Perimeter
-    document.getElementById('dist-ab').innerHTML = dist(vertexAX, vertexAY, vertexBX, vertexBY);
-    document.getElementById('dist-ac').innerHTML = dist(vertexAX, vertexAY, vertexCX, vertexCY);
-    document.getElementById('dist-bc').innerHTML = dist(vertexBX, vertexBY, vertexCX, vertexCY);
+    document.getElementById('dist-ab').innerHTML = AB;
+    document.getElementById('dist-ac').innerHTML = AC;
+    document.getElementById('dist-bc').innerHTML = BC;
     document.getElementById('perimeter').innerHTML = AB + AC + BC;
 }
 
